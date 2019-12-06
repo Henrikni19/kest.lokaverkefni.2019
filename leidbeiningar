@@ -1,0 +1,11 @@
+bua til nyja user:
+useradd -G group1,group2... -k /etc/skel -s /bin/bash -c "Nafn" -m username
+passwd username
+
+
+laesa user:
+usermod -L username
+
+aflaesa user:
+usermod -U username
+
